@@ -3,7 +3,18 @@
 Console.WriteLine("Enter number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 string meaning = number.ToString ();
-Console.WriteLine(meaning[2]);
+
+
+if (number > 99)
+{
+    Console.WriteLine(meaning[2]);
+}
+else
+{
+    Console.WriteLine("There is no third number");
+}
+
+
 
 
 //ver2
